@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-signin',
@@ -11,5 +12,12 @@ import {NgOptimizedImage} from "@angular/common";
   styleUrl: './signin.component.css'
 })
 export class SigninComponent {
+
+  constructor(private router: Router) {
+  }
+
+  navigateToHome() {
+    this.router.navigate(['home']);
+  }
 
 }

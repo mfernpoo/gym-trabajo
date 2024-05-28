@@ -1,0 +1,227 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.header-left h1 {
+  margin: 0;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons img {
+  margin-left: 10px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.header-icons .profile {
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.logo img {
+  width: 50px;
+  height: 55px;
+  margin-bottom: 20px;
+  gap: 0;
+}
+
+.logo .line {
+  flex: 1;
+  height: 1px;
+  background-color: #ff9800;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+.metric {
+  background-color: #ff7f0e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+/*Inicio IMC*/
+.bmi {
+  margin: 20px 0;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right,
+  #68E109,
+  #A5E50A,
+  #F4EB0C,
+  #DEB00B,
+  #CD5009);
+  border-radius: 5px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.bmi-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.metrics-bmi {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.metric-box {
+  background-color: #fefefe;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  position: relative;
+}
+
+.pen-icon {
+  position: absolute;
+  top: -10px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.metric-box img {
+  height: 24px;
+}
+
+.metric-content {
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.metric-content strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.metric-content div {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/*Fin IMC*/
+
+/*Inicio posts*/
+
+.posts {
+  text-align: left;
+  margin-top: 5%;
+}
+
+.posts h2{
+  text-align: center;
+  color: #F18F01;
+}
+
+.post {
+  border-top: 1px solid #ff9800;
+  padding: 10px 0;
+}
+
+.post:last-child {
+  border-bottom: 1px solid #ff9800;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.author-image {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.category {
+  font-size: 14px;
+  color: #666;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.post-footer .icon {
+  height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+/*Fin posts*/
+
+.btn {
+  background-color: #ff7f0e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #e66b00;
+}
+

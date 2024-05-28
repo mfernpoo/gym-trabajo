@@ -1,0 +1,94 @@
+<div class="container">
+
+  <app-header [label]="'Inicio'"></app-header>
+
+  <div class="metrics">
+    <div class="metric">Edad<br>24</div>
+    <div class="metric">Sexo<br>H</div>
+    <div class="metric">Altura(cm)<br>190</div>
+    <div class="metric">Masa(kg)<br>90</div>
+    <div class="metric">Last update<br>12/5/2023</div>
+  </div>
+
+  <div class="bmi">
+    <h3>Índice de Masa Corporal</h3>
+    <div class="bar">
+      <div class="fill" style="width: 33%;"></div>
+    </div>
+    <div class="bmi-labels">
+      <span>Normal</span>
+      <span>Exceso de peso</span>
+      <span>Obeso</span>
+    </div>
+    <div class="metrics-bmi">
+      <div class="metric-box">
+        <div class="pen-icon">
+          <img src="pen.svg" alt="Edit Icon" />
+        </div>
+        <div class="metric-content">
+          <strong>Altura</strong>
+          <div>190cm</div>
+        </div>
+      </div>
+      <div class="metric-box">
+        <div class="pen-icon">
+          <img src="pen.svg" alt="Edit Icon" />
+        </div>
+        <div class="metric-content">
+          <strong>Peso</strong>
+          <div>90(KG)</div>
+        </div>
+      </div>
+    </div>
+    <button class="btn">Cálculo Rápido</button>
+  </div>
+
+  <div class="posts">
+    <h2>Publicaciones recientes</h2>
+    <div class="post">
+      <div class="post-header">
+        <img src="profile.png" alt="Author Image" class="author-image" />
+        <div class="post-info">
+          <div class="author">Jenny Wilson</div>
+          <div class="category">Categoría: Entrenadores</div>
+        </div>
+      </div>
+      <div class="content">
+        Hola a todos, recientemente descubrí esta app y realmente me ha impresionado. Es ideal para aquellos que quieren empezar a ejercitarse y encontrar diferentes gimnasios cerca. Además, ofrece una plataforma integral para acceder a productos de fitness y clases de ejercicio en línea. ¡Les recomiendo que la prueben!
+      </div>
+      <div class="post-footer">
+        <i class="fa-sharp fa-regular fa-heart icon"></i>
+        <i class="fa-solid fa-comment icon"></i>
+        <i class="fa-solid fa-square-plus icon"></i>
+        <i class="fa-solid fa-share-nodes icon"></i>
+        <img src="circle-ellipse.svg" alt="Share Icon" class="icon" />
+      </div>
+    </div>
+
+    <div class="post">
+      <div class="post-header">
+        <img src="avatar.png" alt="Author Image" class="author-image" />
+        <div class="post-info">
+          <div class="author">Kathryn Murphy</div>
+          <div class="category">Categoría: Entrenadores</div>
+        </div>
+      </div>
+      <div class="content">
+        Hola chicos, debo intentar usar esta aplicación y es increíble. Especialmente para personas que desean ponerse en forma y mejorar. Ofrece planes de fitness a su alrededor. También una tienda de artículos de fitness y clases en vivo. ¡Es increíble!
+      </div>
+      <div class="post-footer">
+        <i class="fa-sharp fa-regular fa-heart icon"></i>
+        <i class="fa-solid fa-comment icon"></i>
+        <i class="fa-solid fa-square-plus icon"></i>
+        <i class="fa-solid fa-share-nodes icon"></i>
+        <img src="circle-ellipse.svg" alt="Share Icon" class="icon" />
+        <!--<img src="like-icon.png" alt="Like Icon" class="icon" />
+        <img src="comment-icon.png" alt="Comment Icon" class="icon" />
+        <img src="share-icon.png" alt="Share Icon" class="icon" />-->
+      </div>
+    </div>
+
+  </div>
+
+  <app-nav></app-nav>
+</div>
