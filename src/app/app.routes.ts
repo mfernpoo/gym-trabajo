@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import {SigninComponent} from "./signin/signin.component";
-import {LoginComponent} from "./login/login.component";
-import {HomeComponent} from "./home/home.component";
-import {ExplorerComponent} from "./explorer/explorer.component";
-import {ShopComponent} from "./shop/shop.component";
-import {MessageComponent} from "./message/message.component";
-import {WellnessComponent} from "./wellness/wellness.component";
+import {SigninComponent} from "./components/signin/signin.component";
+import {LoginComponent} from "./components/login/login.component";
+import {HomeComponent} from "./components/home/home.component";
+import {ExplorerComponent} from "./components/explorer/explorer.component";
+import {ShopComponent} from "./components/shop/shop.component";
+import {MessageComponent} from "./components/message/message.component";
+import {WellnessComponent} from "./components/wellness/wellness.component";
 
 export const routes: Routes = [
   { path: '', component: LoginComponent },

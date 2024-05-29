@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {NavComponent} from "../nav/nav.component";
-import {HeaderComponent} from "../header/header.component";
+import {NavComponent} from "../shared/nav/nav.component";
+import {HeaderComponent} from "../shared/header/header.component";
 
 @Component({
   selector: 'app-home',
